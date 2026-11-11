@@ -1,5 +1,7 @@
 # QCA Structure & Data
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24128304.svg)](https://doi.org/10.5281/zenodo.24128304)
+
 **Project «Structure and Data»** — numerical framework for separating *emergent structure* from *contingent parameters* in particle physics.
 
 > **Status:** v14.4 (final). Code accompanying the article *«Structure and Data: QCA as a framework for separating emergent structure and contingent parameters»*.
