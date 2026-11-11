@@ -169,9 +169,9 @@ dev(b) = mean_{i<j} | log_b(m_j/m_i) - round(log_b(m_j/m_i)) |
 **Файл создан и заморожен до прогона.** Timestamp в шапке: 2026-11-10 16:32.
 
 **Проверяемые артефакты:**
-- Git commit hash, в котором этот файл был впервые зафиксирован (до прогона): `[AUTHOR: вставить вывод `git log --follow --format="%H %ai %s" -- nb10_pvalue.md | tail -1`]`
-- SHA-256 файла на момент заморозки: `[AUTHOR: вставить вывод `sha256sum nb10_pvalue.md` до правок R17, если сохранилась копия; иначе текущий с пометкой "current, post-R17"]`
-- SHA-256 файла `nb10_pvalue_results.txt` (результат прогона): `[AUTHOR: вставить вывод `sha256sum nb10_pvalue_results.txt`]`
+- **Commit hash первого коммита с `nb10_pvalue.md`:** `638039643915ac8bcbabaea8f48bcb8b7e2346fb` (URL: `https://github.com/SergeyNT2006/qca-structure-data/commit/638039643915ac8bcbabaea8f48bcb8b7e2346fb`)
+- **Timestamp прогона:** `2026-11-11 03:40` (совпадает с шапкой `nb10_pvalue_results.txt`)
+- **SHA-256 `nb10_pvalue.md` и `nb10_pvalue_results.txt`:** будут добавлены в v15; на момент v14.4 файлы доступны в commit `6380396`.
 
 **Что было предварительно задано (резюме для Reviewer 2):**
 - Гипотеза: «некоторое основание `b ∈ [2, 40]` даёт аномально малый `dev`» (не «база 15 особая»).
