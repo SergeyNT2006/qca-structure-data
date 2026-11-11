@@ -1,0 +1,47 @@
+# nb10_pvalue_results.txt
+# Run date: 2026-11-11 03:40
+# seed = 42, N_MC = 500
+# errors[2] = 0.12 (PDG 2022 for m_tau)
+
+## DETERMINISTIC SCAN (with MC, stability only)
+
+### leptons (best base 15, dev = 0.028148)
+  1. base 15: dev = 0.028148 ± 1.6059e-05
+  2. base 16: dev = 0.051355 ± 5.2399e-09
+  3. base 14: dev = 0.059823 ± 1.6479e-05
+  4. base 17: dev = 0.081333 ± 1.5350e-05
+  5. base  4: dev = 0.102710 ± 1.0480e-08
+  bases < 5%: 1
+
+### quarks (best base 40, dev = 0.178335)
+  1. base 40: dev = 0.178335 ± 1.4605e-02
+  2. base 39: dev = 0.178865 ± 1.5235e-02
+  3. base 38: dev = 0.179679 ± 1.5724e-02
+  4. base 37: dev = 0.180688 ± 1.6076e-02
+  5. base 36: dev = 0.181883 ± 1.6303e-02
+  bases < 5%: 0
+
+### fermions_9 (best base 40, dev = 0.213830)
+  1. base 40: dev = 0.213830 ± 5.5101e-03
+  2. base 39: dev = 0.216135 ± 5.6739e-03
+  3. base 38: dev = 0.218837 ± 5.8559e-03
+  4. base 37: dev = 0.220327 ± 6.0365e-03
+  5. base 36: dev = 0.221140 ± 6.1932e-03
+  bases < 5%: 0
+
+## PERMUTATION TEST (deterministic, best-of-39)
+
+dev_best39(leptons) = 0.028149
+dev_best39(quarks)  = 0.174249
+observed asym       = 0.146101
+p_abs               = 10/84 = 0.1190
+rank of leptons     = 10/84
+p_asym              = 16/84 = 0.1905
+p_fixed (base 15)   = 1/84 = 0.0119  (post-selection caveat)
+status              = NOT established
+
+## LOOK-ELSEWHERE
+
+top-1 triplet: {mu, b, t}
+  best base: 40, dev = 0.005912
+  ratio (lepton/top): 4.76

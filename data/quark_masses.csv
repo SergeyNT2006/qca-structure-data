@@ -1,0 +1,10 @@
+## 3. `data/quark_masses.csv`
+
+```csv
+quark,type,generation,mass_MeV,scheme,source
+u,up,1,2.16,MS-bar at 2 GeV,PDG 2022
+d,down,1,4.67,MS-bar at 2 GeV,PDG 2022
+s,strange,2,93.4,MS-bar at 2 GeV,PDG 2022
+c,charm,2,1270.0,MS-bar at 2 GeV,PDG 2022
+b,bottom,3,4180.0,MS-bar at 2 GeV,PDG 2022
+t,top,3,172760.0,pole mass,PDG 2022
